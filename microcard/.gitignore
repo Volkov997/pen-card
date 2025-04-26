@@ -1,0 +1,6 @@
+*.lck
+#auto_saved_files#
+*-bak
+*-cache
+venv/
+*-backups/

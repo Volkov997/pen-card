@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Foldable")(type "KiCad")(uri "${KIPRJMOD}/Libs/Foldable.pretty")(options "")(descr ""))
+  (lib (name "LCSC")(type "KiCad")(uri "${KIPRJMOD}/Libs/LCSC.pretty")(options "")(descr ""))
+  (lib (name "PCBAntenna")(type "KiCad")(uri "${KIPRJMOD}/Libs/PCBAntenna.pretty")(options "")(descr ""))
+)
