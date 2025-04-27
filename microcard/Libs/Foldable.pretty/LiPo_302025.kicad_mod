@@ -1,0 +1,325 @@
+(footprint "LiPo_302025"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
+	(tags "Through hole pin header THT 1x02 2.54mm single row")
+	(property "Reference" "REF**"
+		(at -8.5 -12.25 0)
+		(layer "User.3")
+		(uuid "2970296c-5a7b-4b8b-a233-18c0fef904de")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LiPo_302025"
+		(at -23.9 -12.3 0)
+		(layer "F.Fab")
+		(uuid "403c51e3-943c-4fed-9bdf-fbf0c6297fd1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5af2a6b1-2407-4e35-960b-b324ae3006ed")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7dec96c7-d1cd-4b58-83bf-25b518605b01")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -27 -10)
+		(end 0 10)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "e7b34fa1-8fc2-4919-8315-a8f764b9880d")
+	)
+	(fp_line
+		(start -27.75 10.25)
+		(end -27.75 -10.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ba24d522-6d9b-4c39-bdf0-923ea158a97a")
+	)
+	(fp_line
+		(start -27.25 -10.75)
+		(end 0.25 -10.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9e615937-7e55-48c1-84d2-f29cdd71b6b1")
+	)
+	(fp_line
+		(start 0.25 10.75)
+		(end -27.25 10.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "504da324-f075-475b-b813-41d618b616df")
+	)
+	(fp_line
+		(start 0.75 -10.25)
+		(end 0.75 10.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ded01eec-80b5-4d93-a7ea-a4062531a67a")
+	)
+	(fp_arc
+		(start -27.75 -10.25)
+		(mid -27.603553 -10.603553)
+		(end -27.25 -10.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "650f806f-a358-4b57-a196-debfb5e1f4d1")
+	)
+	(fp_arc
+		(start -27.25 10.75)
+		(mid -27.603553 10.603553)
+		(end -27.75 10.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "530a9f77-52cd-43fb-ae01-6a4d289799ef")
+	)
+	(fp_arc
+		(start 0.25 -10.75)
+		(mid 0.603553 -10.603553)
+		(end 0.75 -10.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8cbc7fa5-019d-4fbd-bc64-6001182fbe23")
+	)
+	(fp_arc
+		(start 0.75 10.25)
+		(mid 0.603553 10.603553)
+		(end 0.25 10.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "341d2f87-913c-4d18-a7ce-7b762baff62a")
+	)
+	(fp_line
+		(start -27.75 10.25)
+		(end -27.75 -10.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "ec3e5529-aeda-4a4a-b9ec-6f8e4db03f66")
+	)
+	(fp_line
+		(start -27.25 -10.75)
+		(end -21 -10.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.2")
+		(uuid "3c007f5e-960b-4dce-b2e9-204571ffff96")
+	)
+	(fp_line
+		(start -21 -10.75)
+		(end -21 -14.249999)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "775386ae-6c4e-4abb-82bf-63130f9a0156")
+	)
+	(fp_line
+		(start -20.5 -14.75)
+		(end 0.25 -14.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "5360dea7-c5bf-4ff7-b0db-427deaa24b75")
+	)
+	(fp_line
+		(start 0.25 10.75)
+		(end -27.25 10.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "407bea85-018b-44cc-9d12-41c226de99ba")
+	)
+	(fp_line
+		(start 0.75 -14.25)
+		(end 0.75 10.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "097aec5d-93a6-4b16-a6ec-c169990b8b5d")
+	)
+	(fp_arc
+		(start -27.75 -10.25)
+		(mid -27.603553 -10.603553)
+		(end -27.25 -10.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "48245ba0-ec9b-43b5-b116-61630c697279")
+	)
+	(fp_arc
+		(start -27.25 10.75)
+		(mid -27.603553 10.603553)
+		(end -27.75 10.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "76ac22b3-035c-4adf-a0f0-299d23b5b3e3")
+	)
+	(fp_arc
+		(start -21 -14.25)
+		(mid -20.853553 -14.603553)
+		(end -20.5 -14.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "7f7ff6e4-bbcf-4674-8fcc-56871079abfe")
+	)
+	(fp_arc
+		(start 0.25 -14.75)
+		(mid 0.603553 -14.603553)
+		(end 0.75 -14.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "60fbc483-0f41-4bbc-ab4e-155e3ca2689f")
+	)
+	(fp_arc
+		(start 0.75 10.25)
+		(mid 0.603553 10.603553)
+		(end 0.25 10.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "7a558add-c175-4d7c-a59b-5400a2274d69")
+	)
+	(fp_text user "+"
+		(at -20.9 -11.3 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "3ec90ce5-8f5d-4faf-95e1-4c9679b86693")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "-"
+		(at -20.9 -13.1 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "d36b9032-d923-4ccc-a88b-376f3c440d1e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at -13.5 0 180)
+		(layer "F.Fab")
+		(uuid "61b82fc6-62ce-4d45-a549-6126c07c7ff5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -19 -13.625)
+		(size 3 1)
+		(drill 0.6
+			(offset 1 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "a74257bd-77dd-420a-a662-f816c76694c1")
+	)
+	(pad "2" thru_hole rect
+		(at -19 -11.875)
+		(size 3.5 1)
+		(drill 0.6
+			(offset 1.25 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "1ccff171-3192-4aec-9023-0d3771d7cde3")
+	)
+	(embedded_fonts no)
+)

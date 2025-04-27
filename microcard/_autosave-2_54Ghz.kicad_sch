@@ -1253,7 +1253,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a727d671-8826-45e2-9ad6-2c043449cfe9")
-		(property "Reference" "AE1"
+		(property "Reference" "AE2"
 			(at 158.75 93.3449 90)
 			(effects
 				(font
@@ -1316,7 +1316,7 @@
 		(instances
 			(project "microcard"
 				(path "/d4dbc2bb-914b-4f67-85ce-42c0e1fadb1d/b2a1c99b-000c-4fe4-8b8b-c2e96adb2b7c"
-					(reference "AE1")
+					(reference "AE2")
 					(unit 1)
 				)
 			)

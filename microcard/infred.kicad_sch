@@ -2011,7 +2011,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "023aa016-e163-4d84-b019-1840d73a30bb")
-		(property "Reference" "C31"
+		(property "Reference" "C11"
 			(at 106.426 89.408 0)
 			(effects
 				(font
@@ -2073,7 +2073,7 @@
 		(instances
 			(project "microcard"
 				(path "/d4dbc2bb-914b-4f67-85ce-42c0e1fadb1d/c35708e6-dbe6-4af0-8b6b-22b8d851f6f1"
-					(reference "C31")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -2175,7 +2175,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1031b57d-60a7-445a-b12a-25b5147f21ab")
-		(property "Reference" "R24"
+		(property "Reference" "R29"
 			(at 140.97 86.3599 0)
 			(effects
 				(font
@@ -2246,7 +2246,7 @@
 		(instances
 			(project "microcard"
 				(path "/d4dbc2bb-914b-4f67-85ce-42c0e1fadb1d/c35708e6-dbe6-4af0-8b6b-22b8d851f6f1"
-					(reference "R24")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -2351,7 +2351,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1be83d4d-1e9c-4aaa-82c8-9e1011e8040b")
-		(property "Reference" "R26"
+		(property "Reference" "R32"
 			(at 74.93 93.9799 0)
 			(effects
 				(font
@@ -2413,7 +2413,7 @@
 		(instances
 			(project "microcard"
 				(path "/d4dbc2bb-914b-4f67-85ce-42c0e1fadb1d/c35708e6-dbe6-4af0-8b6b-22b8d851f6f1"
-					(reference "R26")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -2429,7 +2429,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1de339ec-36ec-43f6-9603-16cacaa9b034")
-		(property "Reference" "R33"
+		(property "Reference" "R26"
 			(at 74.93 80.0099 0)
 			(effects
 				(font
@@ -2491,7 +2491,7 @@
 		(instances
 			(project "microcard"
 				(path "/d4dbc2bb-914b-4f67-85ce-42c0e1fadb1d/c35708e6-dbe6-4af0-8b6b-22b8d851f6f1"
-					(reference "R33")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -2507,7 +2507,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fbe1e47-cb06-46d5-8626-73d208127520")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR045"
 			(at 138.43 87.63 0)
 			(effects
 				(font
@@ -2557,7 +2557,7 @@
 		(instances
 			(project ""
 				(path "/d4dbc2bb-914b-4f67-85ce-42c0e1fadb1d/c35708e6-dbe6-4af0-8b6b-22b8d851f6f1"
-					(reference "#PWR068")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -2573,7 +2573,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23b62d48-28bd-4e1f-8d15-6ae182f5f4fd")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR048"
 			(at 97.79 82.55 0)
 			(effects
 				(font
@@ -2623,7 +2623,7 @@
 		(instances
 			(project "microcard"
 				(path "/d4dbc2bb-914b-4f67-85ce-42c0e1fadb1d/c35708e6-dbe6-4af0-8b6b-22b8d851f6f1"
-					(reference "#PWR069")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -2639,7 +2639,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "244f334f-8b27-4fe8-81d7-5659a5b80209")
-		(property "Reference" "R32"
+		(property "Reference" "R34"
 			(at 210.8201 101.6 0)
 			(effects
 				(font
@@ -2701,7 +2701,7 @@
 		(instances
 			(project "microcard"
 				(path "/d4dbc2bb-914b-4f67-85ce-42c0e1fadb1d/c35708e6-dbe6-4af0-8b6b-22b8d851f6f1"
-					(reference "R32")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -2717,7 +2717,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f6ccd9d-b801-4d2c-9e89-a952f9c67495")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR044"
 			(at 83.82 64.77 0)
 			(effects
 				(font
@@ -2768,7 +2768,7 @@
 		(instances
 			(project ""
 				(path "/d4dbc2bb-914b-4f67-85ce-42c0e1fadb1d/c35708e6-dbe6-4af0-8b6b-22b8d851f6f1"
-					(reference "#PWR078")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -2783,7 +2783,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "35e1557c-f4d2-4006-93c0-f000397a4b3f")
-		(property "Reference" "U8"
+		(property "Reference" "U5"
 			(at 88.9 96.266 0)
 			(effects
 				(font
@@ -2850,7 +2850,7 @@
 		(instances
 			(project ""
 				(path "/d4dbc2bb-914b-4f67-85ce-42c0e1fadb1d/c35708e6-dbe6-4af0-8b6b-22b8d851f6f1"
-					(reference "U8")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -2865,7 +2865,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3fa4d918-898e-41fe-a2e4-a962f2a160f2")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR046"
 			(at 175.26 86.36 0)
 			(effects
 				(font
@@ -2915,7 +2915,7 @@
 		(instances
 			(project "microcard"
 				(path "/d4dbc2bb-914b-4f67-85ce-42c0e1fadb1d/c35708e6-dbe6-4af0-8b6b-22b8d851f6f1"
-					(reference "#PWR077")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -2930,7 +2930,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "41aa05b4-07ee-45ba-99d6-9ebd23c36942")
-		(property "Reference" "LED1"
+		(property "Reference" "LED3"
 			(at 119.634 89.662 0)
 			(effects
 				(font
@@ -2993,7 +2993,7 @@
 		(instances
 			(project ""
 				(path "/d4dbc2bb-914b-4f67-85ce-42c0e1fadb1d/c35708e6-dbe6-4af0-8b6b-22b8d851f6f1"
-					(reference "LED1")
+					(reference "LED3")
 					(unit 1)
 				)
 			)
@@ -3009,7 +3009,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b3663d6-92bd-4fba-92ef-470e5e081e44")
-		(property "Reference" "Q6"
+		(property "Reference" "Q4"
 			(at 72.39 58.42 90)
 			(effects
 				(font
@@ -3075,7 +3075,7 @@
 		(instances
 			(project "microcard"
 				(path "/d4dbc2bb-914b-4f67-85ce-42c0e1fadb1d/c35708e6-dbe6-4af0-8b6b-22b8d851f6f1"
-					(reference "Q6")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -3090,7 +3090,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "525db7a2-8643-459c-a4ba-79c2d65ac050")
-		(property "Reference" "LED3"
+		(property "Reference" "LED5"
 			(at 143.764 89.662 0)
 			(effects
 				(font
@@ -3153,7 +3153,7 @@
 		(instances
 			(project "microcard"
 				(path "/d4dbc2bb-914b-4f67-85ce-42c0e1fadb1d/c35708e6-dbe6-4af0-8b6b-22b8d851f6f1"
-					(reference "LED3")
+					(reference "LED5")
 					(unit 1)
 				)
 			)
@@ -3169,7 +3169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60a04dbe-94a5-47c8-84db-08c7e1f1b8c4")
-		(property "Reference" "R29"
+		(property "Reference" "R31"
 			(at 173.99 88.8999 0)
 			(effects
 				(font
@@ -3232,7 +3232,7 @@
 		(instances
 			(project "microcard"
 				(path "/d4dbc2bb-914b-4f67-85ce-42c0e1fadb1d/c35708e6-dbe6-4af0-8b6b-22b8d851f6f1"
-					(reference "R29")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -3248,7 +3248,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f003e6e-c1f9-4035-9505-6def7dc8f810")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR047"
 			(at 80.01 82.55 0)
 			(effects
 				(font
@@ -3298,7 +3298,7 @@
 		(instances
 			(project ""
 				(path "/d4dbc2bb-914b-4f67-85ce-42c0e1fadb1d/c35708e6-dbe6-4af0-8b6b-22b8d851f6f1"
-					(reference "#PWR059")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -3314,7 +3314,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "721f19f5-1954-42aa-b634-9f0a6c1443ff")
-		(property "Reference" "R25"
+		(property "Reference" "R30"
 			(at 152.4 86.3599 0)
 			(effects
 				(font
@@ -3385,7 +3385,7 @@
 		(instances
 			(project "microcard"
 				(path "/d4dbc2bb-914b-4f67-85ce-42c0e1fadb1d/c35708e6-dbe6-4af0-8b6b-22b8d851f6f1"
-					(reference "R25")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -3401,7 +3401,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83016441-ce9c-45de-aa04-8b84824dbe77")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR049"
 			(at 105.41 90.17 0)
 			(effects
 				(font
@@ -3451,7 +3451,7 @@
 		(instances
 			(project "microcard"
 				(path "/d4dbc2bb-914b-4f67-85ce-42c0e1fadb1d/c35708e6-dbe6-4af0-8b6b-22b8d851f6f1"
-					(reference "#PWR071")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -3467,7 +3467,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "973de136-776d-4846-aadd-6f1753a3fcd8")
-		(property "Reference" "D6"
+		(property "Reference" "D4"
 			(at 210.82 93.0274 90)
 			(effects
 				(font
@@ -3538,7 +3538,7 @@
 		(instances
 			(project "microcard"
 				(path "/d4dbc2bb-914b-4f67-85ce-42c0e1fadb1d/c35708e6-dbe6-4af0-8b6b-22b8d851f6f1"
-					(reference "D6")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -3554,7 +3554,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a18b04f8-88d2-4872-9bed-0db8dbf886c9")
-		(property "Reference" "Q3"
+		(property "Reference" "Q6"
 			(at 129.54 114.2999 0)
 			(effects
 				(font
@@ -3622,7 +3622,7 @@
 		(instances
 			(project "microcard"
 				(path "/d4dbc2bb-914b-4f67-85ce-42c0e1fadb1d/c35708e6-dbe6-4af0-8b6b-22b8d851f6f1"
-					(reference "Q3")
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -3638,7 +3638,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a22ff700-63ec-420d-8e93-4aca03d5c244")
-		(property "Reference" "R30"
+		(property "Reference" "R33"
 			(at 180.34 93.9799 0)
 			(effects
 				(font
@@ -3700,7 +3700,7 @@
 		(instances
 			(project "microcard"
 				(path "/d4dbc2bb-914b-4f67-85ce-42c0e1fadb1d/c35708e6-dbe6-4af0-8b6b-22b8d851f6f1"
-					(reference "R30")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -3716,7 +3716,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bab7d371-2b7f-4424-a17d-08640830c0e6")
-		(property "Reference" "R31"
+		(property "Reference" "R27"
 			(at 209.55 83.8199 0)
 			(effects
 				(font
@@ -3779,7 +3779,7 @@
 		(instances
 			(project "microcard"
 				(path "/d4dbc2bb-914b-4f67-85ce-42c0e1fadb1d/c35708e6-dbe6-4af0-8b6b-22b8d851f6f1"
-					(reference "R31")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -3794,7 +3794,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c5e9d65f-0379-47bf-8fcc-f59e60db42f3")
-		(property "Reference" "LED2"
+		(property "Reference" "LED4"
 			(at 132.334 89.662 0)
 			(effects
 				(font
@@ -3857,7 +3857,7 @@
 		(instances
 			(project "microcard"
 				(path "/d4dbc2bb-914b-4f67-85ce-42c0e1fadb1d/c35708e6-dbe6-4af0-8b6b-22b8d851f6f1"
-					(reference "LED2")
+					(reference "LED4")
 					(unit 1)
 				)
 			)
@@ -3873,7 +3873,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb9a67d0-b30c-4951-8c54-f2d41157d34b")
-		(property "Reference" "R23"
+		(property "Reference" "R28"
 			(at 128.27 86.3599 0)
 			(effects
 				(font
@@ -3944,7 +3944,7 @@
 		(instances
 			(project ""
 				(path "/d4dbc2bb-914b-4f67-85ce-42c0e1fadb1d/c35708e6-dbe6-4af0-8b6b-22b8d851f6f1"
-					(reference "R23")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -3960,7 +3960,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eea7d03c-4602-41a2-b46c-2e7ca01364c1")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR050"
 			(at 125.73 127 0)
 			(effects
 				(font
@@ -4010,7 +4010,7 @@
 		(instances
 			(project "microcard"
 				(path "/d4dbc2bb-914b-4f67-85ce-42c0e1fadb1d/c35708e6-dbe6-4af0-8b6b-22b8d851f6f1"
-					(reference "#PWR070")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)

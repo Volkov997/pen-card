@@ -488,7 +488,11 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "Net-(C45-Pad2)": [
+        "50R"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {

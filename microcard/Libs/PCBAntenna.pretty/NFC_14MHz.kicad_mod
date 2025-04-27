@@ -55,8 +55,18 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -36.45 -24.45)
-		(end -34.7 -26.2)
+		(start -36.45 -25.65)
+		(end -36.45 -24.45)
+		(stroke
+			(width 0.6)
+			(type solid)
+		)
+		(layer "F.Cu")
+		(uuid "477af3d7-74fb-4fc6-abe0-54460c5b78b2")
+	)
+	(fp_line
+		(start -36.45 -25.65)
+		(end -35.9 -26.2)
 		(stroke
 			(width 0.6)
 			(type solid)
@@ -65,7 +75,7 @@
 		(uuid "65ca72ed-0e06-4a76-8a0e-4bcab16ebd31")
 	)
 	(fp_line
-		(start -34.7 -26.2)
+		(start -35.9 -26.2)
 		(end 34.7 -26.2)
 		(stroke
 			(width 0.6)
