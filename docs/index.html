@@ -21,6 +21,7 @@
             <li>150mAh 3mm LiPo, max. 3&#181A shutdown current</li>
             <li>dimming switch for all those blinky LEDs</li>
         </ul>
+        Design files git repo: <a href="https://github.com/Volkov997/pen-card">github.com/Volkov997/pen-card</a>.
         <h2>Construction</h2>
         The card is constructed from two stacked 1.6mm PCBs, for a full height of 3.2mm, width width and height being 86mm x 54mm. Compents are chosen and placed as to not stick out.  
         Although not all components are placed yet, here is a 3d model of the raw PCB:
@@ -48,11 +49,11 @@
          <a href="https://github.com/Volkov997/KicadFold">This</a> KiCad plugin i wrote allows me to draw board cutouts on a layer like User.2 inside a footprint, and then places the actual cutout on the PCB that will be stacked on top.
         <img src="assets/cutout.png" alt="example of the plugin">
         <h2>Design Files</h2>
-        The entire design is accessible at this git repo: <a href="https://github.com/Volkov997/pen-card">github.com/Volkov997/pen-card</a>
-        <embed src="../assets/schematic.pdf" type="application/pdf">
+        Here are both the Schematic and PCB as a PDF:
+        <embed src="assets/merged.pdf" type="application/pdf">
         <h2>TODO</h2>
         <ul>
-            <li>right now there is no space for the onboard antenna connector, the ESP-32 has to be rotated and both sockets have to be inside the NFC antenna</li>
+            <li>right now there is no space for the onboard antenna cable (between ESP U.FL and antenna MHF4), the ESP-32 has to be rotated and both sockets have to be inside the NFC antenna</li>
             <li>place the rest of the components (LEDs, Buttons and more Caps)
                 <img src="assets/unplaced.png" alt="unplaced components" style="height: 12em;">
             </li>
