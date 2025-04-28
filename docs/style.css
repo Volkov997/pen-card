@@ -24,4 +24,5 @@ embed {
     max-width: 60em;
     height: 20em;
     margin: 2em 0;
+    margin-right: auto;
 }
