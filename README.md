@@ -13,3 +13,5 @@ RF Pentesting tool,small enough for your wallet. Please see the docs for more de
 -   150mAh 3mm LiPo, max. 3uA shutdown current
 
 The card is constructed from two stacked 1.6mm PCBs, for a full height of 3.2mm, width and height being 86mm x 54mm. Components are chosen and placed as to not stick out.
+
+This project is WIP, and will be ordered through OnBoard once finished.
