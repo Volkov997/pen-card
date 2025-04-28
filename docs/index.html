@@ -4,13 +4,63 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>PenCard32</title>
+        <link rel="stylesheet" href="style.css" />
     </head>
     <body>
+        <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+
         <h1>PenCard32</h1>
-        <h3>An RF toolkit that fits into your Wallet</h3>
+        <h3>An RF toolkit that fits into your wallet ^^</h3>
         <h2>Features</h2>
+        <ul>
+            <li>ESP-32 processor with U.FL connector</li>
+            <li>onboard 2.54GHz chip antenna with U.FL to MHF4 cable</li>
+            <li>ST253916 NFC controller (read, write, emulate)</li>
+            <li>IR LEDs + Reciever (38kHz)</li>
+            <li>0.96" OLED (might switch to a smaller one if i find one tho)</li>
+            <li>150mAh 3mm LiPo, max. 3&#181A shutdown current</li>
+            <li>dimming switch for all those blinky LEDs</li>
+        </ul>
         <h2>Construction</h2>
-        <h2>Design Stage</h2>
+        The card is constructed from two stacked 1.6mm PCBs, for a full height of 3.2mm, width width and height being 86mm x 54mm. Compents are chosen and placed as to not stick out.  
+        Although not all components are placed yet, here is a 3d model of the raw PCB:
+        <model-viewer
+        id="mv1"
+            src="assets/pcb.glb"
+            interaction-prompt="none" 
+            poster="assets/3d.png"
+            alt="3D model of the PCB"
+            camera-controls
+            camera-orbit="0deg 10deg 0.1m"
+        ></model-viewer>
+        And how it should look when stacked:
+        <model-viewer
+        id="mv2"
+            src="assets/stacked.glb"
+            interaction-prompt="none" 
+            poster="assets/3d.png"
+            alt="3D model of the stacked PCB"   
+            camera-controls
+            camera-orbit="0deg 10deg 0.1m"
+        ></model-viewer>
+        the two pcbs are placed side by side and connected by mousebites.
+        <img src="assets/connection.png" alt="image showing the mousebites & two parts of the pcb">
+         <a href="https://github.com/Volkov997/KicadFold">This</a> KiCad plugin i wrote allows me to draw board cutouts on a layer like User.2 inside a footprint, and then places the actual cutout on the PCB that will be stacked on top.
+        <img src="assets/cutout.png" alt="example of the plugin">
         <h2>Design Files</h2>
+        The entire design is accessible at this git repo: <a href="https://github.com/Volkov997/pen-card">github.com/Volkov997/pen-card</a>
+        <embed src="../assets/schematic.pdf" type="application/pdf">
+        <h2>TODO</h2>
+        <ul>
+            <li>right now there is no space for the onboard antenna connector, the ESP-32 has to be rotated and both sockets have to be inside the NFC antenna</li>
+            <li>place the rest of the components (LEDs, Buttons and more Caps)
+                <img src="assets/unplaced.png" alt="unplaced components" style="height: 12em;">
+            </li>
+            <li>simulate the pcb antenna and adjust the RF tuning (im gonna use SonnetLite for the sim and the manufacturers calculator for the ST25 matching ciruit)</li>
+            <li>check with an RF expert i know lol</li>
+            <li>maybe add the CC110L for Sub-Ghz capabilites</li>
+            <li>different charging connector? the UART connector already has a plug and the proper connections, maybe ill find a more convinient one for charging tho</li>
+        </ul>
+        <p>This project was made/started for <span>Hackclub Journey</span> by <a href="https://hackclub.slack.com/team/U0820V84P6Z">@Volkov</a></p>
     </body>
 </html>
