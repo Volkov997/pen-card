@@ -6,8 +6,8 @@
 	(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 	(tags "Through hole pin header THT 1x02 2.54mm single row")
 	(property "Reference" "REF**"
-		(at -8.5 -12.25 0)
-		(layer "User.3")
+		(at -13.05 -12.65 0)
+		(layer "F.SilkS")
 		(uuid "2970296c-5a7b-4b8b-a233-18c0fef904de")
 		(effects
 			(font
@@ -17,8 +17,8 @@
 		)
 	)
 	(property "Value" "LiPo_302025"
-		(at -23.9 -12.3 0)
-		(layer "F.Fab")
+		(at -5.1 -12.65 0)
+		(layer "F.SilkS")
 		(uuid "403c51e3-943c-4fed-9bdf-fbf0c6297fd1")
 		(effects
 			(font
